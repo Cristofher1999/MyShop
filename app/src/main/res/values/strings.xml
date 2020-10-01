@@ -15,10 +15,26 @@
     <string name="contrase_a_1">Contraseña</string>
     <string name="nueva_contrase_a">Nueva contraseña</string>
     <string name="masculino">Masculino</string>
-    <string name="todo">TODO</string>
     <string name="crear_cuenta_1">Crear Cuenta</string>
     <string name="g_nero">Género</string>
     <string name="otro">otro</string>
     <string name="femenino">Femenino</string>
     <string name="androidmarketlogo">androidmarketlogo</string>
+    <string name="productos">Productos</string>
+    <string name="producto_1">producto 1</string>
+    <string name="producto_2">producto 2</string>
+    <string name="producto_3">producto 3</string>
+    <string name="producto_4">producto 4</string>
+    <string name="producto_5">producto 5</string>
+    <string name="producto_6">producto 6</string>
+    <string name="producto_7">producto 7</string>
+    <string name="producto_8">producto 8</string>
+    <string name="producto_9">producto 9</string>
+    <string name="perfil">Perfil</string>
+    <string name="mi_carro">Mi Carro</string>
+    <string name="producto_10">producto 10</string>
+    <string name="producto_11">producto 11</string>
+    <string name="producto_12">producto 12</string>
+    <string name="inicio">Inicio</string>
+    <string name="todo">TODO</string>
 </resources>
