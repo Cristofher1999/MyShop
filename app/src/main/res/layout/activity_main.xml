@@ -60,6 +60,7 @@
         android:id="@+id/btn_newacc"
         android:layout_width="238dp"
         android:layout_height="51dp"
+        android:onClick="MainActivity"
         android:text="@string/crear_cuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,5 +106,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingrese_a_crear_cuenta_activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FF0000"
+        android:textColorHighlight="#E91E63"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/label_correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_app"
+        app:layout_constraintVertical_bias="0.356" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

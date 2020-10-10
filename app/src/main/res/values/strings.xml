@@ -37,4 +37,14 @@
     <string name="producto_12">producto 12</string>
     <string name="inicio">Inicio</string>
     <string name="todo">TODO</string>
+    <string name="apellido">Apellido</string>
+    <string name="name">Name</string>
+
+    <string name="email">Email</string>
+
+    <string name="felicidades_cuenta_creada">Felicidades, Cuenta Creada</string>
+    <string name="ok">Ok</string>
+    <string name="img1">img1</string>
+    <string name="ingrese_a_crear_cuenta_activity">Ingrese a crear cuenta (activity)</string>
+    <string name="esta_es_una_prueba_de_activity">Esta es una prueba de Activity</string>
 </resources>
