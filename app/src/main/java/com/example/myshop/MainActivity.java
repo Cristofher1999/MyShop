@@ -11,12 +11,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_prueba_sensor);
 
         }
     public void MainActivity(View view){
-        Intent mainact = new Intent(this, CrearCuenta.class);
+        Intent mainact = new Intent(this, PruebaSensor.class);
         startActivity(mainact);
     }
 }
