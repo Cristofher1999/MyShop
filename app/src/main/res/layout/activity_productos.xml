@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tv_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/img_productoprueba"
+        android:layout_width="85dp"
+        android:layout_height="77dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        app:srcCompat="@mipmap/market" />
+
+    <TextView
+        android:id="@+id/tv_productoprueba"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="Producto de prueba  $50" />
+
+    <Button
+        android:id="@+id/btn_verproducto"
+        android:layout_width="143dp"
+        android:layout_height="72dp"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:onClick="DetalleProducto"
+        android:text="ver producto" />
+</GridLayout>
