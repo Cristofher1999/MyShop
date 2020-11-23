@@ -1,4 +1,4 @@
-package com.example.myshop;
+package com.st.myshop;
 
 import android.Manifest;
 import android.content.Intent;
@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+
+import com.st.myshop.R;
 
 public class MainActivity extends AppCompatActivity {
     final private int REQUEST_CODE_ASK_PERMISSION=111;

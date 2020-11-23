@@ -1,4 +1,4 @@
-package com.example.myshop;
+package com.st.myshop;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

@@ -1,4 +1,4 @@
-package com.example.myshop;
+package com.st.myshop;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.st.myshop.R;
 
 public class Registrar_Usuario extends AppCompatActivity {
     AdminSQLiteOpenHelper db;

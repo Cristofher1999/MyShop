@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myshop">
+    package="com.st.myshop">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -30,13 +30,13 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".PuntoEncuentro"
+            android:name="com.st.myshop.PuntoEncuentro"
             android:label="@string/title_activity_punto_encuentro"></activity>
-        <activity android:name=".DetalleProducto" />
-        <activity android:name=".Productos" />
-        <activity android:name=".Inicio" />
-        <activity android:name=".Registrar_Usuario" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.st.myshop.DetalleProducto" />
+        <activity android:name="com.st.myshop.Productos" />
+        <activity android:name="com.st.myshop.Inicio" />
+        <activity android:name="com.st.myshop.Registrar_Usuario" />
+        <activity android:name="com.st.myshop.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

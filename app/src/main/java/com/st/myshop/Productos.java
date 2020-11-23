@@ -1,10 +1,12 @@
-package com.example.myshop;
+package com.st.myshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.st.myshop.R;
 
 public class Productos extends AppCompatActivity {
 
