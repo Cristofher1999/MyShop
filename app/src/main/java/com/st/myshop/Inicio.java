@@ -17,9 +17,14 @@ public class Inicio extends AppCompatActivity {
     }
 
 
-    public void Productos(View view){
+    public void Productos(View view) {
         Intent productos = new Intent(this, Productos.class);
         startActivity(productos);
 
+    }
+
+    public void AdminProductos(View view) {
+        Intent adminprod = new Intent(this, AdminProductos.class);
+        startActivity(adminprod);
     }
 }
